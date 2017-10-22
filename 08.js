@@ -35,3 +35,8 @@ if (nota>=7){
 }else {
     console.log("el alumno"+ persona+ " se saco un "+nota+ "desaprobo");
 }
+/*1. Un año de vida para las personas, representa 7 años en la vida de un perro. Escribí un programa que reciba como parámetro tu edad (no te olvides de usar la función `Number` para convertirla de string a número) y mostrá por la terminal cuantos años tendrías si fueras un perro (tu edad multiplicada por 7).*/
+
+var edad= process.argv[2];
+
+console.log ("si fueras un perro tendrías " edad*7 " años");
